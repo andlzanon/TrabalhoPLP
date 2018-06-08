@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Maior Menor</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<img class="img" src="img/logo.png" width="40" height="40">
+				<h1 class="titulo-nav">Maior Menor</h1>
+			</div>
+		</header>
+		<main>
+			<section class="container">
+				<div class="row">
+				  <div class="column">
+				  	<h2>Maior</h2>
+				  	<label id="maior" class="maior-numero">-</label>
+				  </div>
+				  <div class="column">
+				  	<h2>Menor</h2>
+				  	<label id="menor" class="menor-numero">-</label>
+				  </div>
+				</div>
+				
+				<h2>Números</h2>
+				<table>
+					<thead>
+						<tr>
+							<th>Número</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-numeros">
+					</tbody>
+				</table>
+			</section>
+		</main>
+
+		<section class="container">
+		    <h2>Adicionar número</h2>
+		    <ul id="mensagem-erro"></ul>
+		    <form id="form-adiciona">
+		        <div class="">
+		            <label for="nome">Novo Número:</label>
+		            <input id="novo-numero" name="número" type="number" placeholder="digite o número que queira adicionar" class="campo">
+		        </div>
+		        <button id="adicionar-numero" class="botao bto-principal">Adicionar</button>
+		    </form>
+		</section>
+	</body>
+	<script src="js\maiorMenor.js"></script>
+</html>
