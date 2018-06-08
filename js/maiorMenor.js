@@ -36,6 +36,9 @@ botao.addEventListener("click", function(event){
 	//modifica conteudo
 	textoMaiorElem.textContent = maiorMenor[0];
 	textoMenorElem.textContent = maiorMenor[1];
+
+	//limpa form
+	document.querySelector("#form-adiciona").reset();
 });
 
 
