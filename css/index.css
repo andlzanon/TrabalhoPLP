@@ -34,13 +34,7 @@ header h3{
 	vertical-align:	middle;
 }
 
-.maior-menor{
-	font-size: 0.75em;
-	display:inline-block;
-	vertical-align:	middle;
-}
-
-.maior-numero{
+.numero-add{
 	font-size: 4em;
 	font-weight: bold;
 	display:inline-block;
@@ -48,7 +42,7 @@ header h3{
 	color: #0c8cd3;
 }
 
-.menor-numero{
+.perfeito{
 	font-size: 3.75em;
 	font-weight: bold;
 	display:inline-block;

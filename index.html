@@ -2,7 +2,7 @@
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
-		<title>Maior Menor</title>
+		<title>Numero Perfeito</title>
 		<link rel="icon" href="favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
@@ -12,19 +12,19 @@
 		<header>
 			<div class="container">
 				<img class="img" src="img/logo.png" width="40" height="40">
-				<h1 class="titulo-nav">Maior Menor</h1>
+				<h1 class="titulo-nav">Numero Perfeito</h1>
 			</div>
 		</header>
 		<main>
 			<section class="container">
 				<div class="row">
 				  <div class="column">
-				  	<h2>Maior</h2>
-				  	<label id="maior" class="maior-numero">-</label>
+				  	<h2>Número</h2>
+				  	<label id="numero" class="numero-add">-</label>
 				  </div>
 				  <div class="column">
-				  	<h2>Menor</h2>
-				  	<label id="menor" class="menor-numero">-</label>
+				  	<h2>Perfeito</h2>
+				  	<label id="e-perfeito" class="perfeito">-</label>
 				  </div>
 				</div>
 				
@@ -33,9 +33,12 @@
 					<thead>
 						<tr>
 							<th>Número</th>
+							<th>Pefeito</th>
 						</tr>
 					</thead>
 					<tbody id="tabela-numeros">
+						<tr class="numero">
+						</tr>
 					</tbody>
 				</table>
 			</section>
@@ -53,5 +56,5 @@
 		    </form>
 		</section>
 	</body>
-	<script src="js\maiorMenor.js"></script>
+	<script src="js\numeroPerfeito.js"></script>
 </html>
